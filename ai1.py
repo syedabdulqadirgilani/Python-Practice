@@ -1,5 +1,5 @@
-a=int('enter a number ')
-b=int('enter second number ')
+a=int(input('enter a number '))
+b=int(input('enter second number '))
 print(a+b)
 print(a-b)
 print(a*b)
