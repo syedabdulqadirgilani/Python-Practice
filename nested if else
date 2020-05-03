@@ -1,0 +1,5 @@
+u_n,u_a=input('enter name').split(',')
+if (u_n[0]=='a' or u_n[0]=='A') and u_a>10:
+    print('you can watch coco movie ')
+else:
+    print("you can't watch,sorry.")
