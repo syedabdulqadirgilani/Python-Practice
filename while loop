@@ -1,0 +1,7 @@
+n=input('enter name ')
+temp_v=""
+i=0
+while i<len(n):
+    if n[i] not in temp_v:
+        print(f'{n[i]}:{n.count(n[i])}')
+        i+=1
