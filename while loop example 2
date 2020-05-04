@@ -1,0 +1,9 @@
+n=(input('enter number '))
+#'1234' #length=4,last index=3
+# int(number[i])
+t=0
+i=0
+while i<len(n):
+    t+=int(n[i])
+    i+=1
+    print(t)
